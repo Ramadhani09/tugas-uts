@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+
+    
+{% block content %}
+<div class="card-body" style="background-color: #e2edff;">
+<div class="row">
+    <div class="col-sm-3 mb-3 mb-sm-0">
+        <div class="card" style="width: 18rem; margin-top: 20px; margin-left: 10px;">
+            <img src="{% static 'img/1.jpg' %}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Loka Squash</h5>
+                <p class="card-text">12.000</p>
+                <a href="/pesan" class="btn btn-primary">Beli</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card" style="width: 18rem; margin-top: 20px; margin-left: 5px;">
+            <img src="{% static 'img/2.jpeg' %}" class="card-img-top" alt="" >
+            <div class="card-body">
+                <h5 class="card-title">Coffe Spesial</h5>
+                <p class="card-text">15.000</p>
+                <a href="/pesan" class="btn btn-primary">Beli</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card" style="width: 18rem; margin-top: 20px; margin-left: 5px;">
+            <img src="{% static 'img/3.jpg' %}" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Coffe Latte</h5>
+                <p class="card-text">15.000</p>
+                <a href="pesa" class="btn btn-primary">Beli</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card" style="width: 18rem; margin-top: 20px;">
+            <img src="{% static 'img/4.jpg' %}" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Lim Squash</h5>
+                <p class="card-text">10.000</p>
+                <a href="/pesan" class="btn btn-primary">Beli</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-3 mb-3 mb-sm-0">
+        <div class="card" style="width: 18rem; margin-top: 20px; margin-left: 10px;">
+            <img src="{% static 'img/5.jpg' %}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Chocholatte</h5>
+                <p class="card-text">15.000</p>
+                <a href="/pesan" class="btn btn-primary">Beli</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card" style="width: 18rem; margin-top: 20px; margin-left: 5px;">
+            <img src="{% static 'img/6.jpg' %}" class="card-img-top" alt="" >
+            <div class="card-body">
+                <h5 class="card-title">Es Kopi Strong</h5>
+                <p class="card-text">12.000</p>
+                <a href="/pesan" class="btn btn-primary">Beli</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock content %}
